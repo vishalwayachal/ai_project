@@ -1,6 +1,6 @@
 # AI Modules
 
-This project provides a FastAPI-based service for text rephrasing. It is designed to rephrase text using machine learning models.
+This project provides a FastAPI-based service for text rephrasing using machine learning models. It is designed for easy integration, robust logging, and standardized API responses.
 
 ## Features
 - **Rephrase Service**: Rephrase text using a transformers-based model.
@@ -39,6 +39,27 @@ tests/
 ### Prerequisites
 - Python 3.10 or higher
 - pip (Python package manager)
+
+### Creating a Virtual Environment
+It is recommended to use a virtual environment to manage dependencies and avoid conflicts:
+
+1. Create a virtual environment:
+   ```bash
+   python3 -m venv venv
+   ```
+2. Activate the virtual environment:
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+3. (Optional) To deactivate the virtual environment:
+   ```bash
+   deactivate
+   ```
 
 ### Installation
 1. Clone the repository:
